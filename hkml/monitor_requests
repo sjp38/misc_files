@@ -1,0 +1,201 @@
+[
+    {
+        "mailing_lists": [
+            "linux-mm"
+        ],
+        "mail_list_filter": {
+            "new_threads_only": false,
+            "from_keywords": [
+                [
+                    "Andrew",
+                    "Morton"
+                ]
+            ]
+        },
+        "mail_list_decorator": {
+            "collapse": false,
+            "sort_threads_by": [
+                "last_date"
+            ],
+            "ascend": false,
+            "cols": 80,
+            "show_url": true,
+            "hide_stat": false,
+            "runtime_profile": false
+        },
+        "noti_mails": [
+            "sj38.park@gmail.com"
+        ],
+        "monitor_interval": 600,
+        "name": "from akpm to linux-mm"
+    },
+    {
+        "mailing_lists": [
+            "stable"
+        ],
+        "mail_list_filter": {
+            "new_threads_only": true,
+            "subject_keywords": [
+                [
+                    "rc",
+                    "review"
+                ]
+            ]
+        },
+        "mail_list_decorator": {
+            "collapse": false,
+            "sort_threads_by": [
+                "last_date"
+            ],
+            "ascend": false,
+            "cols": 80,
+            "show_url": true,
+            "hide_stat": false,
+            "runtime_profile": false
+        },
+        "noti_mails": [
+            "sj38.park@gmail.com"
+        ],
+        "monitor_interval": 600,
+        "name": "stable rc review requests"
+    },
+    {
+        "mailing_lists": [
+            "linux-mm"
+        ],
+        "mail_list_filter": {
+            "new_threads_only": false,
+            "subject_keywords": [
+                [
+                    "LSF",
+                    "MM"
+                ]
+            ]
+        },
+        "mail_list_decorator": {
+            "collapse": false,
+            "sort_threads_by": [
+                "last_date"
+            ],
+            "ascend": false,
+            "cols": 80,
+            "show_url": true,
+            "hide_stat": false,
+            "runtime_profile": false
+        },
+        "noti_mails": [
+            "sj38.park@gmail.com"
+        ],
+        "monitor_interval": 600,
+        "name": "LSFMM"
+    },
+    {
+        "mailing_lists": [
+            "linux-mm"
+        ],
+        "mail_list_filter": {
+            "new_threads_only": false
+        },
+        "mail_list_decorator": {
+            "collapse": true,
+            "sort_threads_by": [
+                "last_date",
+                "nr_comments"
+            ],
+            "ascend": false,
+            "cols": 80,
+            "show_url": true,
+            "hide_stat": false,
+            "runtime_profile": false,
+            "max_len": 50
+        },
+        "noti_mails": [
+            "sj38.park@gmail.com"
+        ],
+        "monitor_interval": 10800,
+        "name": "linux-mm hot mails per 3 hours"
+    },
+    {
+        "mailing_lists": [
+            "lkml"
+        ],
+        "mail_list_filter": {
+            "new_threads_only": false
+        },
+        "mail_list_decorator": {
+            "collapse": true,
+            "sort_threads_by": [
+                "last_date",
+                "nr_comments"
+            ],
+            "ascend": false,
+            "cols": 80,
+            "show_url": true,
+            "hide_stat": false,
+            "runtime_profile": false,
+            "max_len": 50
+        },
+        "noti_mails": [
+            "sj38.park@gmail.com"
+        ],
+        "monitor_interval": 10800,
+        "name": "lkml hot mails per 3 hours"
+    },
+    {
+        "mailing_lists": [
+            "lkml",
+            "linux-mm",
+            "regressions",
+            "stable"
+        ],
+        "mail_list_filter": {
+            "new_threads_only": false,
+            "from_to_keywords": [
+                [
+                    "Linus",
+                    "Torvalds"
+                ]
+            ]
+        },
+        "mail_list_decorator": {
+            "collapse": false,
+            "sort_threads_by": [
+                "last_date"
+            ],
+            "ascend": false,
+            "cols": 80,
+            "show_url": true,
+            "hide_stat": false,
+            "runtime_profile": false
+        },
+        "noti_mails": [
+            "sj38.park@gmail.com"
+        ],
+        "monitor_interval": 10800,
+        "name": "torvalds conversations"
+    },
+    {
+        "mailing_lists": [
+            "mm-commits"
+        ],
+        "mail_list_filter": {
+            "new_threads_only": false
+        },
+        "mail_list_decorator": {
+            "collapse": false,
+            "sort_threads_by": [
+                "last_date"
+            ],
+            "ascend": false,
+            "cols": 80,
+            "show_url": true,
+            "hide_stat": false,
+            "runtime_profile": false
+        },
+        "noti_mails": [
+            "sj38.park@gmail.com"
+        ],
+        "monitor_interval": 10800,
+        "name": "mm-commits per 3 hours"
+    }
+]
